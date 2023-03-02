@@ -30,7 +30,7 @@ pipeline {
             steps {
                 container ('maven') {
                     sh 'mvn clean test'
-                    junit '**/target/*.xml' 
+                    junit '**/surefire-reports/**/*.xml' 
                 }
             }
         }
