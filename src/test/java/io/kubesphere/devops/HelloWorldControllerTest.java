@@ -10,4 +10,14 @@ public class HelloWorldControllerTest {
     public void testSayHello() {
         assertEquals("Really appreciate your star, that's the power of our life.", new HelloWorldController().sayHello());
     }
+
+     @Test
+    public void testSayHello2() {
+        assertEquals("Really appreciate your star, that's the power of our life.", new HelloWorldController().sayHello());
+    }
+
+    @Test
+    public void testSayHello3() {
+        assertEquals("Really appreciate your star, that's the power of our life.", new HelloWorldController().sayHello());
+    }
 }
