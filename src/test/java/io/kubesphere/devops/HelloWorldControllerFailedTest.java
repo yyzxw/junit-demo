@@ -8,7 +8,7 @@ public class HelloWorldControllerFailedTest {
 
     @Test
     public void testSayHelloFailed() {
-        assertEquals("Really appreciate your star, that's the power of our life.","dasdadadada);
+        assertEquals("Really appreciate your star, that's the power of our life.","dasdadadada");
     }
 
      @Test
